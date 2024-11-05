@@ -1,0 +1,119 @@
+/* src/components/ChatRoom.css */
+.chat-room {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .chat-header {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    background-color: #0078d7;
+    color: white;
+    justify-content: space-between;
+  }
+  
+  .room-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 16px;
+  }
+  
+  .chat-messages {
+    flex-grow: 1;
+    padding: 16px;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+  }
+  
+  .chat-input {
+    display: flex;
+    padding: 8px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .chat-input input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .chat-input button,
+  .dialog-box button {
+    padding: 8px 16px;
+    margin-left: 8px;
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .chat-input {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .file-upload-label {
+    cursor: pointer; /* Change cursor to pointer */
+    margin: 0 10px;
+    font-size: 24px; /* Adjust icon size */
+    width: 16px;
+  }
+  
+  .dialog-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .dialog-box {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .file-preview {
+    margin: 15px 0;
+  }
+  
+  .preview-image,
+  .preview-video {
+    max-width: 100%;
+    max-height: 60vh;
+    border-radius: 8px;
+  }
+  
+  textarea {
+    width: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    resize: none;
+  }
+  
+  .dialog-box .close-dialog {
+    margin-top: 10px;
+    background-color: #ccc;
+  }
