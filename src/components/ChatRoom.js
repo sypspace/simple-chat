@@ -12,7 +12,8 @@ const ChatRoom = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await axios.get('http://192.168.1.16:3000/data/dummy-conversation.json');
+      const siteUrl = window.location.origin;
+      const response = await axios.get(siteUrl + '/data/dummy-conversation.json');
       setData(response.data.results);
     };
     fetchData();
