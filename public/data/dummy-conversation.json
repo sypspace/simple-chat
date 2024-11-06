@@ -59,14 +59,17 @@
             "message": "ini ya bukti transfernya",
             "sender": "customer@mail.com",
             "fileType": "image",
-            "fileUrl": "https://www.bca.co.id/-/media/Feature/News/Edukatips/2024/08/20240822-cara-save-dan-share-bukti-transaksi-di-bca-mobile-1.jpg"
+            "fileUrl": "https://www.bca.co.id/-/media/Feature/News/Edukatips/2024/08/20240822-cara-save-dan-share-bukti-transaksi-di-bca-mobile-1.jpg",
+            "fileName": "20240822-cara-save-dan-share-bukti-transaksi-di-bca-mobile-1.jpg"
         },
         {
             "id":885518,
             "type": "text",
             "message": "Saya cek dulu ya kak",
             "sender": "agent@mail.com",
-            "fileType": "text"
+            "fileType": "text",
+            "fileUrl": null,
+            "fileName": null
         },
         {
             "id":885519,
@@ -83,7 +86,8 @@
             "message": "Promo terbaru kami saat ini, chat untuk lebih detail.",
             "sender": "agent@mail.com",
             "fileType": "video",
-            "fileUrl": "https://file-examples.com/storage/fe00d37cde6728af4966ebc/2017/04/file_example_MP4_480_1_5MG.mp4"
+            "fileUrl": "https://file-examples.com/storage/fe00d37cde6728af4966ebc/2017/04/file_example_MP4_480_1_5MG.mp4",
+            "fileName": "file_example_MP4_480_1_5MG.mp4"
         }
       ]
     }
